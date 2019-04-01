@@ -1,0 +1,64 @@
+.static_nav {
+  margin-top: 30px;
+  height: 40px;
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 39px;
+  margin-bottom: 30px;
+}
+.static_nav p {
+  border-bottom: 1px red solid;
+  display: inline-block;
+  color: #b8b8b8;
+}
+.static_nav p a {
+  color: #b8b8b8;
+}
+.static_nav p a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.content .logo_nav {
+  width: 30%;
+}
+.content .logo_nav .title {
+  margin-bottom: 20px;
+}
+.content .logo_nav .title h4 {
+  font-size: 24px;
+  color: #333;
+  line-height: 40px;
+  margin: 0;
+}
+.content .logo_nav .title h4 p {
+  font-size: 14px;
+  color: #999;
+  padding-top: 5px;
+}
+.content .logo_nav .href,
+.content .logo_nav .text {
+  border: 1px dashed #cbcaca;
+  border-left: none;
+  border-right: none;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #999;
+  line-height: 1.8;
+}
+.content .logo_nav .href span,
+.content .logo_nav .text span {
+  color: #5b7cff;
+  margin-right: 8px;
+}
+.content .logo_nav .href a,
+.content .logo_nav .text a {
+  color: #999;
+  text-decoration: none;
+}
+.content .logo_nav .slide_img {
+  margin: 30px auto;
+  padding: 0 40px;
+  position: relative;
+}
+.content .logo_nav .code img {
+  vertical-align: middle;
+}

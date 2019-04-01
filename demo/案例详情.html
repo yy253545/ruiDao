@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/详情.css">
+</head>
+<body>
+	<div class="Top_box">
+		<div class="container">
+		<div class="Top">
+			<ul class="head_top">
+			<!--最顶部内容-->
+				<div class="head_top_left">
+					<li class="company">7年品牌网站建设专家——成都睿道网络科技有限公司</li>
+				</div>
+				<div class="head_top_right">
+					<li><img src="images/smallphone.png" alt="手机">135-4105-9329</li>
+					<li>在线咨询<img src="images/QQ.png" alt="QQ"></li>
+					<li class="one">微信咨询<img src="images/wx.png" alt="微信"></li>
+				</div>
+			</ul>
+		</div>	
+		</div>
+	</div>
+	<!-- 头部内容 -->
+	<div class="head_content">
+		<div class="container">
+			<div class="head">
+				<div class="head_logo">
+					<img src="images/logo.png" alt="睿道网" title="睿道网" class="logo">
+					<div class="mgs">
+					<ul class="logo_mgs">
+						<li class="tow">7年</li>
+						<li>武汉·成都</li>
+						<li>因为专业所以做得更好</li>
+					</ul>
+					</div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href=""><div id="underline">首页</div></a></li>
+						<li><div id="underline">服务</div></a></li>
+						<li><a href=""><div id="underline">案例</div></a></li>
+						<li><a href=""><div id="underline">方案</div></a></li>
+						<li><a href=""><div id="underline">新闻</div></a></li>
+						<li><a href=""><div id="underline">关于</div></a></li>
+						<li><a href=""><div id="underline">联系</div></a></li>
+					</ul>
+				</div>
+			</div>
+				<!-- 下拉选项 -->
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    <img src="images/list.png" alt="">
+			  </button>
+			  <ul class="dropdown-menu">
+				<li><a href=""><div id="underline">首页</div></a></li>
+				<li><a href=""><div id="underline">服务</div></a></li>
+				<li><a href=""><div id="underline">案例</div></a></li>
+				<li><a href=""><div id="underline">方案</div></a></li>
+				<li><a href=""><div id="underline">新闻</div></a></li>
+				<li><a href=""><div id="underline">关于</div></a></li>
+				<li><a href=""><div id="underline">联系</div></a></li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	<!-- 轮播banner区 -->
+	<div class="banner">
+		<img src="images/case_banner.jpg" alt="">
+	</div>
+	<div class="container">
+		<div class="static_nav">
+			<p>
+				当前位置>
+				<a href="">首页</a>
+				>
+				<a href="">客户案列</a>
+			</p>
+		</div>
+		<div class="content">
+			<div class="logo_nav">
+				<div class="title">
+					<h4>沐舒沐兰</h4>
+					<p>化妆品行业/营销型网站</p>
+				</div>
+				<p class="text">
+					沐舒沐兰（muse  mura）化妆品有限公司是一家专注于洗护
+					产品和香薰产品研发、生产、销售为一体的多元化公司。目
+					前致力于研发手工皂、精油沐浴球和香薰等系列产品，已研
+					发生产百余款品种，产品营销覆盖多个省市。公司不断完善
+					内部营运，品控服务流程，坚实打造业内具有影响的企业。
+					同时不间断的新品呈现并创造出骄人业绩，为公司的长足发
+					展奠定基础。
+				</p>
+				<div class="slide_img"></div>
+				<p class="href">
+					<span>浏览该网站</span>
+					<a href="">www.musemura.cn</a>
+				</p>
+				<p class="code"><img src="images/2wm.png" alt=""></p>
+			</div>
+			<div class="big_img">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="images/anni.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="dist/js/swiper.min.js"></script>
+<script>
+	$('.dropdown-toggle').dropdown()
+	$("button").click(function(){
+		 $(".dropdown-menu").slideToggle("600");
+	})
+</script>
